@@ -1,18 +1,18 @@
 const React = require('react')
 
-function def(html){
-    function Def (html) {
-        return (
-            <html>
-                <head>
-                    <title>Title</title>
-                </head>
-                <body>
-                    {html.children}
-                </body>
-            </html>
-        )
-      }      
-}
+
+function Def (html) {
+    return (
+        <html>
+            <head>
+                <title>Title</title>
+            </head>
+            <body>
+                {html.children}
+            </body>
+        </html>
+    )
+}      
+
 
 module.exports = Def
